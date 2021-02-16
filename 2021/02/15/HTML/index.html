@@ -1,25 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>Hello World</title>
-    <url>/2021/02/02/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<a id="more"></a>
+<!DOCTYPE html>
+<html lang="en">
 
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>HTML基础</title>
-    <url>/2021/02/15/HTML/</url>
-    <content><![CDATA[<h1 id="HTML-amp-HTML5简介"><a href="#HTML-amp-HTML5简介" class="headerlink" title="HTML &amp; HTML5简介"></a>HTML &amp; HTML5简介</h1><p>&emsp;&emsp;HTML 的全称是 Hyper Text Markup Language（超文本标记语言），它是一种用来描述网页结构的标记语言。</p>
+<head>
+  <meta charset="utf-8">
+  
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>
+    HTML基础 |
+    
+    SungChe</title>
+  
+  <link rel="shortcut icon" href="/shark.svg">
+  
+  
+<link rel="stylesheet" href="../../../../css/style.css">
+
+  
+  
+<link rel="stylesheet" href="../../../../fancybox/jquery.fancybox.min.css">
+
+  
+  
+<script src="../../../../js/pace.min.js"></script>
+
+<meta name="generator" content="Hexo 5.3.0"></head>
+
+<body>
+  <main class="content">
+    <section class="outer">
+  <article id="post-HTML" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+      
+
+<h1 class="article-title" itemprop="name">
+  HTML基础
+</h1>
+
+
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="" class="article-date">
+  <time datetime="2021-02-15T10:04:08.000Z" itemprop="datePublished">2021-02-15</time>
+</a>
+      
+    </div>
+    
+
+    
+    
+<div class="tocbot"></div>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+      
+      <h1 id="HTML-amp-HTML5简介"><a href="#HTML-amp-HTML5简介" class="headerlink" title="HTML &amp; HTML5简介"></a>HTML &amp; HTML5简介</h1><p>&emsp;&emsp;HTML 的全称是 Hyper Text Markup Language（超文本标记语言），它是一种用来描述网页结构的标记语言。</p>
 <p>&emsp;&emsp;它采用一种特殊的语法或符号来组织网页的内容，元素通常都有开始标记和结束标记，例如标题、段落、列表。</p>
 <p>&emsp;&emsp;HTML 的 Hyper Text 超文本部分来自 Web 的早期和最初的用例。页面通常包含静态文档，其中包含对其他文档的引用。这些引用包含浏览器用于导航到引用文档的超文本链接，这样用户就可以阅读引用文档，而无需手动搜索。</p>
 <p>&emsp;&emsp;随着 Web 页面和 Web 应用程序变得越来越复杂，W3C 更新了 HTML 规范，以确保网页能够在任何浏览器上显示。最新版本的 HTML 是 HTML5。</p>
@@ -77,7 +124,7 @@
 <p>&emsp;&emsp;理想情况下，alt属性不应该包含特殊字符，除非需要。</p>
 <p>&emsp;&emsp;给上面例子的img添加alt属性：</p>
 <p><code>&lt;img src=&quot;https://www.your-image-source.com/your-image.jpg&quot; alt=&quot;李在赣神魔&quot;&gt;</code></p>
-<h3 id="示例-5"><a href="#示例-5" class="headerlink" title="示例"></a>示例</h3><p>&emsp;&emsp;在h2元素前，插入一个img元素。设置src属性指向这个地址：<a href="https://raw.githubusercontent.com/sungche/img/master/1.png%E3%80%82">https://raw.githubusercontent.com/sungche/img/master/1.png。</a></p>
+<h3 id="示例-5"><a href="#示例-5" class="headerlink" title="示例"></a>示例</h3><p>&emsp;&emsp;在h2元素前，插入一个img元素。设置src属性指向这个地址：<a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/sungche/img/master/1.png%E3%80%82">https://raw.githubusercontent.com/sungche/img/master/1.png。</a></p>
 <p>&emsp;&emsp;最后给图片添加一个alt文本。</p>
 <p><code>&lt;h2&gt;CatPhotoApp&lt;/h2&gt;</code></p>
 <p><code>&lt;main&gt;</code></p>
@@ -85,6 +132,157 @@
 <p><code>&lt;p&gt;在大家心目中，猫是慵懒和可爱的化身，它可以睡饱了再起来吃饭，可以逗趣小耗子，可以卖得了萌，使得了坏，这样百变的小怪兽就集结在一只宠物上，怎能不惹人怜爱。&lt;/p&gt;</code></p>
 <p><code>&lt;p&gt;养猫有的时候，就是介于爱与恨之间，当你钦羡别人萌宠这么可爱的时候，你一定没有想过，猫咪会到处掉毛，甚至会屯老鼠，啃鞋子，用爪子爬门，你不理它，它就挠你，你要对它发脾气，它会比你更来劲。所以，猫咪慎入，没有一定的准备，切勿随便去侍养动物。它们一旦认定你了，你就是它们的主人，如果你抛弃它们，它们必定心中重创。&lt;/p&gt;</code></p>
 <p><code>&lt;/main&gt;</code></p>
-]]></content>
-  </entry>
-</search>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/02/15/HTML/" data-id="ckl7se8w00001kgvm67dm75de" class="article-share-link">
+        分享
+      </a>
+      
+    </footer>
+
+  </div>
+
+  
+  
+<nav class="article-nav">
+  
+  
+  <a href="../../02/hello-world/" class="article-nav-link">
+    <strong class="article-nav-caption">后一篇</strong>
+    <div class="article-nav-title">Hello World</div>
+  </a>
+  
+</nav>
+
+  
+
+  
+  
+  
+  
+
+</article>
+</section>
+    <footer class="footer">
+  <div class="outer">
+    <div class="float-right">
+      <ul class="list-inline">
+  
+  <li><i class="fe fe-smile-alt"></i> <span id="busuanzi_value_site_uv"></span></li>
+  
+  <li><i class="fe fe-bookmark"></i> <span id="busuanzi_value_page_pv"></span></li>
+  
+</ul>
+    </div>
+    <ul class="list-inline">
+      <li>SungChe &copy; 2021</li>
+      
+      <li>Powered by <a href="http://hexo.io/" target="_blank">Hexo</a></li>
+      <li>theme  <a target="_blank" rel="noopener" href="https://github.com/zhwangart/hexo-theme-ocean">Ocean</a></li>
+    </ul>
+  </div>
+</footer>
+  </main>
+  <aside class="sidebar">
+    <button class="navbar-toggle"></button>
+<nav class="navbar">
+  
+  <div class="logo">
+    <a href="../../../../index.html"><img src="/images/hexo.svg" alt="SungChe"></a>
+  </div>
+  
+  <ul class="nav nav-main">
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="../../../../index.html">主页</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="../../../../archives">归档</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="../../../../%E7%9B%B8%E5%86%8C">相册</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="../../../../%E5%85%B3%E4%BA%8E">关于</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link nav-item-search" title="搜索">
+        <i class="fe fe-search"></i>
+        搜索
+      </a>
+    </li>
+  </ul>
+</nav>
+<nav class="navbar navbar-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      <div class="totop" id="totop">
+  <i class="fe fe-rocket"></i>
+</div>
+    </li>
+    <li class="nav-item">
+      
+    </li>
+  </ul>
+</nav>
+<div class="search-form-wrap">
+  <div class="local-search local-search-plugin">
+  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
+  <div id="local-search-result" class="local-search-result"></div>
+</div>
+</div>
+  </aside>
+  
+<script src="../../../../js/jquery-2.0.3.min.js"></script>
+
+
+<script src="../../../../js/jquery.justifiedGallery.min.js"></script>
+
+
+<script src="../../../../js/lazyload.min.js"></script>
+
+
+<script src="../../../../js/busuanzi-2.3.pure.min.js"></script>
+
+
+
+<script src="../../../../fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="../../../../js/copybtn.js"></script>
+
+
+
+
+
+<script src="../../../../js/tocbot.min.js"></script>
+
+<script>
+  // Tocbot_v4.7.0  http://tscanlin.github.io/tocbot/
+  tocbot.init({
+    tocSelector: '.tocbot',
+    contentSelector: '.article-entry',
+    headingSelector: 'h1, h2, h3, h4, h5, h6',
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    positionFixedSelector: '.tocbot',
+    positionFixedClass: 'is-position-fixed',
+    fixedSidebarOffset: 'auto',
+  });
+</script>
+
+
+
+<script src="../../../../js/ocean.js"></script>
+
+</body>
+
+</html>
